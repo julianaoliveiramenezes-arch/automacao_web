@@ -1,0 +1,20 @@
+/node_modules/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Cypress generated artifacts
+/cypress/downloads/
+/cypress/reports/
+/cypress/screenshots/
+/cypress/videos/
+
+# Local logs and operating-system files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+{
+  "name": "automacao_web",
+  "version": "1.0.0",
+  "description": "Trabalho_PGATS_Automacao_WEB",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianaoliveiramenezes-arch/automacao_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/julianaoliveiramenezes-arch/automacao_web/issues"
+  },
+  "homepage": "https://github.com/julianaoliveiramenezes-arch/automacao_web#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^5.0.0",
+    "mochawesome": "^8.1.1",
+    "mochawesome-merge": "^5.1.1",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}
